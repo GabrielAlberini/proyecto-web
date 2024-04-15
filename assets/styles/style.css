@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-page: #f3e5d8;
+  --font-title: 30px;
+  --color-title: #403d3c;
+  --color-p: #969491;
+  --background-preparation: #fff7fc;
+}
+
+body {
+  background-color: var(--background-page);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+article {
+  background-color: red;
+  width: 50%;
+  padding: 30px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: var(--font-title);
+  color: var(--color-title);
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: var(--color-p);
+}
+
+.preparation {
+  background-color: var(--background-preparation);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* Selector especifico */
+.preparation h3 {
+  color: #9c5977;
+}
+
+.preparation ul {
+  margin-left: 20px;
+}
+
+.preparation ul li {
+  margin: 5px 0;
+}
+
+h3 {
+  color: #8f5c4f;
+  margin: 20px 0;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li::marker {
+  color: #8f5c4f;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+li {
+  color: var(--color-p);
+}
+
+li strong {
+  color: var(--color-title);
+  font-weight: bold;
+}
+
+.separator {
+  background-color: #8f5c4f;
+  height: 1px;
+}
+
+.nutrition p {
+  color: black;
+  border-bottom: 1px solid #ddd0cd;
+  padding-bottom: 10px;
+}
+
+.nutrition p span {
+  display: inline-block;
+  width: 50%;
+}
+
+.cantidad {
+  color: #8f5c4f;
+  font-weight: bold;
+}
